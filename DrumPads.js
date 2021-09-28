@@ -36,7 +36,6 @@ const DrumPads = ({drumpads}) => {
             var audio = new Audio(sound);
             audio.play();
           }
-          setTimeout(() => 100);
         };
 
         document.addEventListener("keydown", playOnKey);
