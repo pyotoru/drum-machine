@@ -1,4 +1,4 @@
-<span className="toggle-buttons">
+{/* <span className="toggle-buttons">
   <div class="Power">
     <h4>Power</h4>
     <button className="power-switch"></button>
@@ -11,4 +11,4 @@
     <h4>bank</h4>
     <button></button>
   </div>
-</span>;
+</span>; */}
