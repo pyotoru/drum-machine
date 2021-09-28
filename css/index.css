@@ -35,7 +35,7 @@
   width: 100px;
   font-size: 1rem;
   background-color: #faebd7;
-  border: solid black 2px;
+  border: solid red 2px;
 }
 
 .drum-pads .drum-pad:hover {
