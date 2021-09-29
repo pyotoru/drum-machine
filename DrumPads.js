@@ -5,6 +5,17 @@ const DrumPads = ({drumpads}) => {
   const {keyTrigger, keyCode, sound, id} = drumpads;
 
   const [text, setText] = useState("");
+
+  const playOnKey = (e) => {
+    if (e.keyCode === keyCode) {
+      var audio = new Audio(sound);
+      audio.play();
+      setText(id);
+    }
+  };
+
+  console.log(document.addEventListener("keydown", playOnKey));
+
   // const [active, setActive] = useState(false);
 
   // useEffect(() => {
@@ -31,16 +42,6 @@ const DrumPads = ({drumpads}) => {
       {drumpads.map((drumpad) => {
         const {keyTrigger, keyCode, sound, id} = drumpad;
 
-        const playOnKey = (e) => {
-          if (e.keyCode === keyCode) {
-            setText(id);
-            var audio = new Audio(sound);
-            audio.play();
-          }
-        };
-
-        document.addEventListener("keydown", playOnKey);
-
         // window.addEventListener("keydown", (e) => {
         //   if (e.keyCode === keyCode) {
         //     play();
@@ -54,6 +55,7 @@ const DrumPads = ({drumpads}) => {
 
         return (
           <article key={id}>
+            <div id="listener"></div>
             <button
               className="drum-pad"
               onClick={() => {
