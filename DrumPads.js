@@ -53,7 +53,7 @@ const DrumPads = ({drumpads}) => {
         // });
 
         return (
-          <article>
+          <article key={id}>
             <button
               className="drum-pad"
               onClick={() => {
@@ -65,7 +65,7 @@ const DrumPads = ({drumpads}) => {
               <img src={cat} alt="this is cat" className="catSvg" />
               {keyTrigger}
             </button>
-            <div class="display" id="display">
+            <div className="display" id="display">
               <h1>{text}</h1>
             </div>
           </article>

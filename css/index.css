@@ -1,12 +1,3 @@
-@font-face {
-  font-family: "Cat Cat";
-  src: url("http://fonts.cdnfonts.com/css/cat-cat") format("truetype");
-}
-
-* {
-  font-family: "Cat Cat", sans-serif;
-}
-
 .container {
   position: relative;
   border: solid 1px black;
@@ -18,11 +9,11 @@
 .drum-pads {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (0.1fr)[3];
-      grid-template-columns: repeat(3, 0.1fr);
+  -ms-grid-columns: (0.1fr) [3];
+  grid-template-columns: repeat(3, 0.1fr);
   -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
   padding-left: 10px;
   padding: 20px;
   grid-column-gap: 4px;
