@@ -12,7 +12,7 @@ function App() {
           <DrumPads drumpads={drumpads} />
         </div>
       </div>
-      <div>
+      <div className="notation">
         Icons made by{" "}
         <a
           href="https://www.flaticon.com/authors/vitaly-gorbachev"
