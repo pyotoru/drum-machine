@@ -33,6 +33,7 @@ const DrumPads = ({drumpads}) => {
 
         const playOnKey = (e) => {
           if (e.keyCode === keyCode) {
+            setText(id);
             var audio = new Audio(sound);
             audio.play();
           }
