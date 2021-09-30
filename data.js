@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: "Meow 1",
     keyCode: 81,
@@ -54,3 +54,5 @@ export default [
     sound: "https://www.mboxdrive.com/Meow%209.mp3",
   },
 ];
+
+export default data;
