@@ -1,7 +1,7 @@
 .container {
   position: relative;
   border: solid 1px black;
-  width: 100%;
+  width: 750px;
   margin-right: auto;
   margin-left: auto;
   background-color: #deb887;
@@ -49,13 +49,16 @@
   position: absolute;
   top: 0;
   right: 0;
-  margin-right: 12rem;
+  margin-right: 10rem;
   margin-top: 9rem;
+  height: 50px;
+  width: 100px;
 
   @media (max-width: 800px) {
     margin: auto;
     left: 0;
     bottom: 0;
+    margin-bottom: 3rem;
   }
 }
 
@@ -65,7 +68,6 @@
   font-weight: 100;
 
   @media (max-width: 800px) {
-    padding-top: 18rem;
     font-size: 1.5rem;
   }
 }
