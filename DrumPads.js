@@ -19,47 +19,47 @@ const DrumPads = ({drumpads}) => {
     if (e.keyCode === drumpads[0].keyCode) {
       var audio = new Audio(drumpads[0].sound);
       audio.play();
-      setText(id);
+      setText(drumpads[0].id);
     }
      if (e.keyCode === drumpads[1].keyCode) {
       var audio = new Audio(drumpads[1].sound);
       audio.play();
-      setText(id);
+      setText(drumpads[1].id);
     }
      if (e.keyCode === drumpads[2].keyCode) {
       var audio = new Audio(drumpads[2].sound);
       audio.play();
-      setText(id);
+      setText(drumpads[2].id);
     }
      if (e.keyCode === drumpads[3].keyCode) {
       var audio = new Audio(drumpads[3].sound);
       audio.play();
-      setText(id);
+      setText(drumpads[3].id);
     }
      if (e.keyCode === drumpads[4].keyCode) {
       var audio = new Audio(drumpads[4].sound);
       audio.play();
-      setText(id);
+      setText(drumpads[4].id);
     }
      if (e.keyCode === drumpads[5].keyCode) {
       var audio = new Audio(drumpads[5].sound);
       audio.play();
-      setText(id);
+      setText(drumpads[5].id);
     }
      if (e.keyCode === drumpads[6].keyCode) {
       var audio = new Audio(drumpads[6].sound);
       audio.play();
-      setText(id);
+      setText(drumpads[6].id);
     }
      if (e.keyCode === drumpads[7].keyCode) {
       var audio = new Audio(drumpads[7].sound);
       audio.play();
-      setText(id);
+      setText(drumpads[7].id);
     }
      if (e.keyCode === drumpads[8].keyCode) {
       var audio = new Audio(drumpads[8].sound);
       audio.play();
-      setText(id);
+      setText(drumpads[8].id);
     }
   };
 
