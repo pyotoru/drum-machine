@@ -51,8 +51,6 @@
 
 @media (max-width: 800px) {
   .drum-pads .drum-pad {
-    height: 80px;
-    width: 80px;
     font-size: 0.75rem;
   }
 }
@@ -73,7 +71,7 @@
     margin: auto;
     left: 0;
     bottom: 0;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
   }
 }
 
